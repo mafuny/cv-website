@@ -2,7 +2,7 @@ import { t as NavDrawer } from "./NavDrawer-RlLgXODS.js";
 import { useEffect, useRef, useState } from "react";
 import { Fragment, jsx, jsxs } from "react/jsx-runtime";
 //#region src/assets/yaroslav-portrait.png
-var yaroslav_portrait_default = "/assets/yaroslav-portrait-CnHbhmFC.png";
+var yaroslav_portrait_default = "/cv-website/assets/yaroslav-portrait-CnHbhmFC.png";
 //#endregion
 //#region src/routes/index.tsx?tsr-split=component
 var schnupperlehrenData = [
@@ -637,7 +637,7 @@ function Hero() {
 				}), /* @__PURE__ */ jsxs("div", {
 					className: "relative z-10 flex justify-center animate-[fadeUp_0.3s_ease-out]",
 					children: [/* @__PURE__ */ jsx("img", {
-						src: "/assets/yaroslav-portrait-CnHbhmFC.png",
+						src: "/cv-website/assets/yaroslav-portrait-CnHbhmFC.png",
 						alt: "Yaroslav Serbinov Full",
 						className: "max-w-full max-h-[85vh] rounded-2xl shadow-2xl object-contain border border-border/50"
 					}), /* @__PURE__ */ jsx("button", {
