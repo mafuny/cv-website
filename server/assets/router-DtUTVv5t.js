@@ -3,7 +3,7 @@ import { HeadContent, Link, Outlet, Scripts, createFileRoute, createRootRouteWit
 import { jsx, jsxs } from "react/jsx-runtime";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 //#region src/styles.css?url
-var styles_default = "/cv-website/assets/styles-DCXv0lGQ.css";
+var styles_default = "/assets/styles-DCXv0lGQ.css";
 //#endregion
 //#region src/lib/lovable-error-reporting.ts
 function reportLovableError(error, context = {}) {
@@ -222,7 +222,7 @@ var Route$1 = createFileRoute("/alle-dokumente")({
 });
 //#endregion
 //#region src/routes/index.tsx
-var $$splitComponentImporter = () => import("./routes-C87K7_ZE.js");
+var $$splitComponentImporter = () => import("./routes-eXkv6Piy.js");
 var Route = createFileRoute("/")({
 	head: () => ({ meta: [
 		{ title: "Yaroslav Serbinov – Lebenslauf | Bewerbung Lehrstelle ICT" },
